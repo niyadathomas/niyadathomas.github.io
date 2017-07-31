@@ -3,10 +3,21 @@
 	color: navy;
 }
 
-.intro 
+header.intro 
 {
     background-position: center;
     color: maroon;
+}
+
+.intro .intro-body .container .brand-heading 
+{
+    border-top: 2px solid navy;
+    border-bottom: 2px solid navy;
+}    
+
+.intro .intro-body .container div#heading
+{
+    margin-top: 240px;
 }
 
 .intro .intro-text
@@ -14,16 +25,21 @@
     color: white;
 }
 
-#heading
+.intro .btn-circle
 {
-    margin-top: 180px;
+    border: 2px solid navy;
 }
 
-@media(min-width:768px) 
+.intro a i 
 {
-	.intro .intro-body .brand-heading 
+    color: white;
+}
+
+@media only screen and (min-width: 0px)
+{
+    .intro .brand-heading 
     {
-		border-top:2px solid navy;
-		border-bottom:2px solid navy;
-	}
+        border-top: 2px solid navy;
+        border-bottom: 2px solid navy;
+    }    
 }
