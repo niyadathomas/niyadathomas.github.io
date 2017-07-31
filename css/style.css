@@ -1,45 +1,86 @@
-.navbar-custom .nav li a:hover 
+nav.navbar-custom
 {
-	color: navy;
+    background-color: midnightblue;
+}
+
+nav.navbar-custom .nav li a:hover 
+{
+	color: maroon;
 }
 
 header.intro 
 {
     background-position: center;
-    color: maroon;
+    background-image: url(../img/cover.jpeg);
+    background-image: linear-gradient(rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.1)), url(../img/cover.jpeg);
 }
 
-.intro .intro-body .container .brand-heading 
+header.intro div.intro-body h1.brand-heading 
 {
-    border-top: 2px solid navy;
-    border-bottom: 2px solid navy;
+    color: maroon;
+    border-top: 2px solid midnightblue;
+    border-bottom: 2px solid midnightblue;
 }    
 
-.intro .intro-body .container div#heading
+header.intro div#heading
 {
     margin-top: 240px;
 }
 
-.intro .intro-text
+header.intro.intro-text
 {
     color: white;
 }
 
-.intro .btn-circle
+header.intro .btn-circle
 {
-    border: 2px solid navy;
+    border: 2px solid midnightblue;
 }
 
-.intro a i 
+header.intro a i 
 {
     color: white;
+}
+
+section#about,
+section#about a,
+section#about a i
+{
+    color: maroon;
+}
+
+section#about .btnghost 
+{
+    border: 2px solid midnightblue;
+}
+
+footer
+{
+    background-color: midnightblue;
 }
 
 @media only screen and (min-width: 0px)
 {
-    .intro .brand-heading 
+    header.intro h1.brand-heading 
     {
-        border-top: 2px solid navy;
-        border-bottom: 2px solid navy;
+        border-top: 2px solid midnightblue;
+        border-bottom: 2px solid midnightblue;
     }    
+}
+
+@media only screen and (min-width: 768px)
+{
+    nav.navbar-custom
+    {
+        background-color: transparent;
+    }
+    nav.navbar-custom.top-nav-collapse
+    {    
+        background-color: midnightblue;
+    }    
+    
+    nav.navbar-custom.top-nav-collapse a
+    {
+        color: white;
+    }
 }
