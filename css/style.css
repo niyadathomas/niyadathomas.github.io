@@ -1,0 +1,29 @@
+.navbar-custom .nav li a:hover 
+{
+	color: navy;
+}
+
+.intro 
+{
+    background-position: center;
+    color: maroon;
+}
+
+.intro .intro-text
+{
+    color: white;
+}
+
+#heading
+{
+    margin-top: 180px;
+}
+
+@media(min-width:768px) 
+{
+	.intro .intro-body .brand-heading 
+    {
+		border-top:2px solid navy;
+		border-bottom:2px solid navy;
+	}
+}
