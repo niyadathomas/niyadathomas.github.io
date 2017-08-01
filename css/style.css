@@ -84,3 +84,8 @@ footer
         color: white;
     }
 }
+
+#experience-header
+{
+    background-image: url(../img/mentor.jpeg);
+}
