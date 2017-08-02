@@ -68,6 +68,19 @@ footer
     }    
 }
 
+@media only screen and (max-width: 433px)
+{     
+    #experience-description
+    {
+        font-size: 130%;
+    }
+    
+    section#page-sample
+    {
+        padding: 0;
+    }
+}
+
 @media only screen and (min-width: 768px)
 {
     nav.navbar-custom
@@ -83,10 +96,36 @@ footer
     {
         color: white;
     }
+    
+    section#single-project iframe#video1,
+    section#single-project iframe#video2
+    {
+        height: 415px;
+        width: 520px;
+    }    
 }
 
 #experience-header
 {
     background-image: url(../img/mentor.jpeg);
-    padding-top: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 250px;
+}
+
+div.gallery 
+{
+    background: maroon;
+    padding-top: 50px !important;
+    position: relative;
+    height: 200px;
+}
+
+div.gallery h2
+{
+    left: 50% !important;
+    margin: 0 !important;
+    position: absolute;
+    top: 60% !important;
+    transform: translate(-50%, -50%) !important;
 }
